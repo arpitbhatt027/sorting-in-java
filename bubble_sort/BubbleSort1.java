@@ -2,7 +2,7 @@ package bubble_sort;
 
 public class BubbleSort1 {
 
-    public static void printSortedArray(int sortedNumbers[]) {
+    public static void printSortedArray(int[] sortedNumbers) {
         System.out.println("After sorting");
         for (int i = 0; i < sortedNumbers.length - 1; i++) {
             System.out.print(" " + sortedNumbers[i]);
@@ -10,7 +10,7 @@ public class BubbleSort1 {
     }
 
     public static void main(String[] args) {
-        int numbers[] = {2, 1, 4, 6, 3, 5, 6};
+        int[] numbers = {2, 1, 4, 6, 3, 5, 6};
         System.out.println("Before Sorting");
 
         for (int i = 0; i < numbers.length - 1; i++) {
